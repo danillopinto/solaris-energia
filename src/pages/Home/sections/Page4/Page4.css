@@ -1,0 +1,53 @@
+#h2Page4 {
+    text-align: left;
+    color: #020F59;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#inputPage4 {
+    background-color: rgba(185, 185, 185, 0.445);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.VoltarCarregamento4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+} 
+
+
+
+.barraCarregamento4 {
+    position: relative;
+    background-color:  rgba(185, 185, 185, 0.445);
+    width: 100%;
+    height: 13px;
+    border-radius: 20px;
+}
+
+.barraCarregamento4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background:  #020F59;
+    transform-origin: left;
+    animation: ProgressPage4 .5s ease-in-out;
+    border-radius: 20px;
+
+}
+
+@keyframes ProgressPage4 {
+    0%, 50% {
+        transform: scaleX(0);
+    }
+
+}

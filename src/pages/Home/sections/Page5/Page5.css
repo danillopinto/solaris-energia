@@ -1,0 +1,25 @@
+#LogoPage5 {
+    width: 150px;
+}
+
+#buttonProximoPage5 {
+    background-color: #50ad0e;
+    color: white;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: .4s;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+#buttonProximoPage5:hover {
+    background-color: #418b0c;
+}
+
+#buttonRetornar5 {
+    text-decoration: none;
+    font-weight: 500;
+}

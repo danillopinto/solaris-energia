@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+#h1Inicio {
+    color: #020F59;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.Container1 {
+    width: 42%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.Container2 {
+    width: 58%;
+    height: 100%;
+    text-align: center;
+    background-color: #E9EFF2;
+    overflow: hidden;
+    padding: 3% 5%;
+}
+
+header {
+    display: flex;
+}
+
+#ParagrafroInicio {
+    padding: 30px 15%;
+    color: rgba(48, 47, 47, 0.699);
+    margin-bottom: 20px;
+}
+
+#LogoInicio {
+    width: 250px;
+    padding: 40px 0 20px 0;
+}
+
+#buttonProximo {
+    padding: 16px 70px;
+    border: 0;
+    background-color: #50ad0e;
+    color: white;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+}
+
+#buttonProximo:hover {
+    padding: 18px 72px;
+}
+
+button:hover {
+    padding: 18px 72px;
+    transition: .4s;
+}
+
+@media (max-width: 1020px) {
+    #AvatarInicio {
+        display: none;
+    }
+     
+    .Container1 {
+        display: none;
+    }
+
+    .Container2 {
+        width: 100%;
+        overflow: auto;
+        padding-bottom: 15%;
+    }
+
+    #h1Inicio {
+        font-size: 45px;
+
+    }
+
+}
