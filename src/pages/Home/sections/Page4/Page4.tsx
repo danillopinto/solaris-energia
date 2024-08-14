@@ -68,9 +68,9 @@ const Page4: React.FC = () => {
                     </h5>
 
                     <p id="ParagrafroInicio3">
-                        Conte com a ME Energia Solar para economizar até 95% na sua conta de luz! Nós temos experiência
-                        de sobra para levar as melhores soluções de energia solar para sua casa, comércio, indústria e
-                        ou seu agronegócio.
+                        Conte com a SOLARIS ENERGIA para economizar até 95% na sua conta de luz! Nós temos experiência
+                        de sobra para levar as melhores soluções de energia solar para sua casa, comércio, indústria e/ou 
+                        seu agronegócio.
                     </p>
 
                     <h2 id="h2Page4">Qual seu e-mail?</h2>

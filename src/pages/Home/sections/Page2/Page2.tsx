@@ -38,7 +38,7 @@ const Page2 = () => {
                 <h5 id="h5Page2">Energia limpa, sustentável e renovável!</h5>
                 <p id="ParagrafroInicio2">
                     O uso de energias renováveis está em um crescimento vertiginoso em todo o mundo e a energia solar avança
-                    como uma das matrizes que mais crescem neste ramo. Entre para este Mundo Energético. Seja ME!
+                    como uma das matrizes que mais crescem neste ramo. Entre para este Mundo Energético. Seja SOLARIS ENERGIA!
                 </p>
                 <h2 id="h2Page2">Quanto você paga por mês na fatura de energia?</h2>
                 <input

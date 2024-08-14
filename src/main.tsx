@@ -23,9 +23,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Route path="/3" element={<Page4 />} />
           <Route path="/5" element={<Page5 />} />
 
-
-
-
         </Routes>
       </BrowserRouter>
 

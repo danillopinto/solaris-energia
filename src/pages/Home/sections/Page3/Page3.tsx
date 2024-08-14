@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "styled-components";
-import wallpaperPage3 from "../../../assets/paineis-solares-buzzi-energia.png";
+import wallpaperPage3 from "../../../assets/medium-shot-environmental-engineer-holding-laptop.webp";
 import "./Page3.css";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { Link, useNavigate } from 'react-router-dom';
@@ -34,7 +34,7 @@ const Page3: React.FC = () => {
         <>
             <header>
                 <div className="Container1">
-                    <img src={wallpaperPage3} id="AvatarPage3" alt="Background" />
+                    <img src={wallpaperPage3} id="AvatarPage3" alt="Background" style={{ width: "170%", marginLeft: "-350px" }} />
                 </div>
 
                 <div className="Container2">
@@ -48,7 +48,7 @@ const Page3: React.FC = () => {
 
                     <p id="ParagrafroInicio3">
                         Um sistema de geração de energia elétrica com luz do sol deve ser feito para durar muito tempo, utilizando
-                        equipamentos confiáveis e instalação de ótima qualidade. A ME Energia Solar assegura um suporte e relacionamento
+                        equipamentos confiáveis e instalação de ótima qualidade. A SOLARIS ENERGIA assegura um suporte e relacionamento
                         de longo prazo com nossos clientes, de forma que o sistema de energia solar fotovoltaica continue com eficiência
                         maximizada, mesmo depois de muitos anos da instalação.
                     </p>

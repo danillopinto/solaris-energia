@@ -1,5 +1,5 @@
 
-import Avatar from "../../../assets/energia-solar.jpg"
+import Avatar from "../../../assets/248469-descubra-quais-os-fatores-que-influenciam-na-geracao-de-energia-solar.jpg.webp"
 import Logo from "../../../assets/logo.png"
 import "./Inicio.css"
 import "styled-components"
@@ -18,7 +18,7 @@ const Inicio = () => {
 
                 <div className="Container1">
 
-                    <img src={Avatar} id="AvatarInicio" />
+                    <img src={Avatar} id="AvatarInicio" style={{ width: "170%" }} />
 
                 </div>
 
