@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import {  Link } from 'react-router-dom';
-import wallpaperPage4 from "../../../assets/combustivelposto-1024x597.png";
 import Logo from "../../../assets/logo.png";
 import './Page5.css';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -26,8 +25,8 @@ const Page5: React.FC = () => {
 
     return (
         <header>
-            <div className="Container1">
-                <img src={wallpaperPage4} style={{ width: "200%" }} alt="Background" />
+            <div className="Container1" id="AvatarPage5">
+                
             </div>
             <div className="Container2">
                 <img src={Logo} id="LogoPage5" alt="Logo" />

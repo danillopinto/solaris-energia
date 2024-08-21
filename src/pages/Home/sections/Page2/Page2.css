@@ -20,6 +20,13 @@ li {
     margin-bottom: 12px;
 }
 
+#AvatarPage2 {
+    width: 42%;
+    background-image: url('../../../assets/energia-solar-2.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
 
 #h2Page2 {
     text-align: left;

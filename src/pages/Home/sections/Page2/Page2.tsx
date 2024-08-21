@@ -1,5 +1,4 @@
 import  { useState } from 'react';
-import wallpaper from "../../../assets/energia-solar-2.jpg";
 import IconSolar from "../../../assets/solar-2d0cae9b.png";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { Link, useNavigate } from 'react-router-dom';
@@ -22,8 +21,8 @@ const Page2 = () => {
 
     return (
         <header>
-            <div className="Container1">
-                <img src={wallpaper} alt="Wallpaper de energia solar" id="AvatarInicio" />
+            <div className="Container1" id="AvatarPage2">
+    
             </div>
             <div className="Container2">
                 <div className="VoltarCarregamento">

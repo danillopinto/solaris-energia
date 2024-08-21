@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import "styled-components";
-import wallpaperPage3 from "../../../assets/medium-shot-environmental-engineer-holding-laptop.webp";
 import "./Page3.css";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { Link, useNavigate } from 'react-router-dom';
@@ -33,8 +32,8 @@ const Page3: React.FC = () => {
     return (
         <>
             <header>
-                <div className="Container1">
-                    <img src={wallpaperPage3} id="AvatarPage3" alt="Background" style={{ width: "170%", marginLeft: "-350px" }} />
+                <div className="Container1" id="AvatarPage3">
+
                 </div>
 
                 <div className="Container2">

@@ -88,7 +88,10 @@
 }
 
 #AvatarPage3 {
-    width: 110%;
+    width: 42%;
+    background-image: url('../../../assets/medium-shot-environmental-engineer-holding-laptop.webp'); /* Substitua pelo URL da imagem */
+    background-size: cover;
+    background-position: right;
 }
 
 @keyframes ProgressPage3 {

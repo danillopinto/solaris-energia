@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import "styled-components";
-import wallpaperPage4 from "../../../assets/combustivelposto-1024x597.png";
 import "./Page4.css";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { Link, useNavigate } from 'react-router-dom';
@@ -52,8 +51,8 @@ const Page4: React.FC = () => {
     return (
         <>
             <header>
-                <div className="Container1">
-                    <img src={wallpaperPage4} style={{ width: "200%" }} alt="Background" />
+                <div className="Container1" id="AvatarPage4">
+                    
                 </div>
 
                 <div className="Container2">
